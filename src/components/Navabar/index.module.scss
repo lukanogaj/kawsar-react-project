@@ -1,0 +1,65 @@
+.navbar {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background-color: #f1efee;
+	font-family: Lato, serif;
+
+	.navStart {
+		display: flex;
+		justify-content: space-between;
+		align-items: centre;
+		width: 23%;
+		margin-left: 2rem;
+		border: 1.2rem;
+		padding: 1rem;
+		.cv {
+			align-items: center;
+			width: 40%;
+			text-align: center;
+			padding: 1rem;
+			background-color: #ffffff;
+			margin-left: 1.2rem;
+			border-radius: 2.2rem;
+		}
+
+		.copyEmail {
+			display: flex;
+			width: 100%;
+			justify-content: space-around;
+			background-color: #f1efee;
+			border-radius: 2.2rem;
+			.email {
+				padding: 1rem;
+				text-align: center;
+				letter-spacing: 0.06rem;
+			}
+			.copy {
+				width: 50%;
+				padding: 1rem;
+				background-color: #ffffff;
+				margin-left: 1.2rem;
+				border-radius: 2.2rem;
+				text-align: center;
+			}
+		}
+	}
+
+	/* Right hand side menu  */
+	.navEnd {
+		display: flex;
+		justify-content: space-between;
+		width: 15%;
+		margin-right: 2rem;
+		padding: 1.2rem;
+
+		.links {
+			display: flex;
+		}
+		br {
+			display: flex;
+		}
+	}
+}
