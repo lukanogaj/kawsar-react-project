@@ -4,6 +4,7 @@ import data from "../data";
 const Navbar = () => {
 	return (
 		<div className={styles.navbar}>
+			{/* Navbar  start map with the items  */}
 			{data.navbarStar.map((navitem) => (
 				<div
 					className={styles.navStart}
@@ -15,20 +16,17 @@ const Navbar = () => {
 					<div className={styles.cv}>{navitem.cv}</div>
 				</div>
 			))}
-			{/* <div className={styles.navStart}>
-				<div className={styles.copyEmail}>
-					<div className={styles.copyEmail}>lukan.hotmail.co.uk</div>
-					<div className={styles.copy}>Copy</div>
+
+			{/*  Navbar end with the items */}
+			{data.navbarEnd.map((linkitem) => (
+				<div className={styles.navEnd}>
+					<div className={styles.links}>{linkitem.linkedin}</div>
+					<div className={styles.links}>{linkitem.slash}</div>
+					<div className={styles.links}>{linkitem.dribble}</div>
+					<div className={styles.links}>{linkitem.slash}</div>
+					<div className={styles.links}>{linkitem.instagram}</div>
 				</div>
-				<div className={styles.cv}>CV</div>
-			</div> */}
-			<div className={styles.navEnd}>
-				<div className={styles.links}>Linkedin</div>
-				<div className={styles.links}>/</div>
-				<div className={styles.links}>Dribble</div>
-				<div className={styles.links}>/</div>
-				<div className={styles.links}>Instagram</div>
-			</div>
+			))}
 		</div>
 	);
 };
