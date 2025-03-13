@@ -1,4 +1,10 @@
 import pictureOne from "../images/mojo.jpg";
+import adobe from "../images/Icons/adobe.png";
+import cocacola from "../images/Icons/cocacola.png";
+import codeacademy from "../images/Icons/codeacademy.png";
+import mattered from "../images/Icons/mattered.png";
+import nationwide from "../images/Icons/nationwide.png";
+import subway from "../images/Icons/subway.png";
 
 const data = {
 	navbarStar: [
@@ -30,6 +36,15 @@ const data = {
 			line: "⎯",
 			arrow: "↗",
 		},
+	],
+
+	floatingIcons: [
+		{ image: adobe },
+		{ image: cocacola },
+		{ image: codeacademy },
+		{ image: mattered },
+		{ image: nationwide },
+		{ image: subway },
 	],
 };
 
