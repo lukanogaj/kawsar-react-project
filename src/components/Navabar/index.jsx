@@ -19,7 +19,9 @@ const Navbar = () => {
 
 			{/*  Navbar end with the items */}
 			{data.navbarEnd.map((linkitem) => (
-				<div className={styles.navEnd}>
+				<div
+					className={styles.navEnd}
+					key={linkitem.id}>
 					<div className={styles.links}>{linkitem.linkedin}</div>
 					<div className={styles.links}>{linkitem.slash}</div>
 					<div className={styles.links}>{linkitem.dribble}</div>
