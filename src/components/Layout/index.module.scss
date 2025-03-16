@@ -1,14 +1,12 @@
-.layoutContainer {
-	display: flex;
-	justify-content: center;
-	width: 100vw;
-	background-color: #f1efee;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 .layout {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	background-color: #ffffff;
+	max-width: 100vm;
+	max-height: 100vh;
 	// max-width: 1400px;
 	// min-height: 100vh;
 }

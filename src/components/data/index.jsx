@@ -39,12 +39,12 @@ const data = {
 	],
 
 	floatingIcons: [
-		{ image: adobe },
-		{ image: cocacola },
-		{ image: codeacademy },
-		{ image: mattered },
-		{ image: nationwide },
-		{ image: subway },
+		{ id: 4, image: adobe },
+		{ id: 5, image: cocacola },
+		{ id: 6, image: codeacademy },
+		{ id: 7, image: mattered },
+		{ id: 8, image: nationwide },
+		{ id: 9, image: subway },
 	],
 };
 

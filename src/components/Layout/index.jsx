@@ -5,11 +5,7 @@ import PropTypes from "prop-types";
 // import useLocalStorage from "use-local-storage";
 
 const Layout = ({ children }) => {
-	return (
-		<div className={styles.layoutContainer}>
-			<div className={styles.layout}>{children}</div>
-		</div>
-	);
+	return <div className={styles.layout}>{children}</div>;
 };
 
 Layout.propTypes = {

@@ -1,0 +1,36 @@
+// $animationSpeed: 30s;
+
+// @keyframes scroll {
+// 	0% {
+// 		transform: translateX(0);
+// 	}
+// 	100% {
+// 		transform: translateX(calc(-100%));
+// 	}
+// }
+
+.slider {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-color: red;
+
+	.sliderTrack {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		animation: scroll 10s linear infinite;
+		width: calc(550px * 6);
+	}
+
+	.slide {
+		width: 550px;
+	}
+
+	.slide img {
+		max-width: 250px;
+		height: auto;
+	}
+}
