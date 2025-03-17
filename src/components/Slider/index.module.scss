@@ -1,7 +1,9 @@
 .slider {
 	max-width: 100%;
-	background-color: red;
-	white-space: nowrap;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 0 0 123px 123px;
+
 	@keyframes sliding {
 		from {
 			transform: translateX(0);
@@ -13,22 +15,15 @@
 
 	.sliderTrack {
 		display: flex;
-		gap: 1rem;
+		gap: 2rem;
 		align-items: center;
-		padding-block: 1rem;
-		flex-wrap: wrap;
-		animation: 10s sliding infinite linear;
-		overflow: hidden;
+		padding-block: 8.5rem;
+		animation: 30s sliding infinite linear;
 		white-space: nowrap;
-		// justify-content: space-evenly;
+		border-radius: 0 0 123px 123px;
 	}
 
-	// .slide {
-	// 	width: 550px;
-	// }
-
 	.slide img {
-		max-width: 220px;
-		height: 110px;
+		height: 140px;
 	}
 }
