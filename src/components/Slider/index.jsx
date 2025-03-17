@@ -1,6 +1,8 @@
 import styles from "./index.module.scss";
 import data from "../data";
-import Slider from "react-infinite-logo-slider";
+import { useRef } from "react";
+// import { useEffect } from "react";
+// import Slider from "react-infinite-logo-slider";
 
 const SliderLogos = () => {
 	return (

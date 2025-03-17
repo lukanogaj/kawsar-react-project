@@ -1,36 +1,34 @@
-// $animationSpeed: 30s;
-
-// @keyframes scroll {
-// 	0% {
-// 		transform: translateX(0);
-// 	}
-// 	100% {
-// 		transform: translateX(calc(-100%));
-// 	}
-// }
-
 .slider {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
+	max-width: 100%;
 	background-color: red;
+	white-space: nowrap;
+	@keyframes sliding {
+		from {
+			transform: translateX(0);
+		}
+		to {
+			transform: translateX(-100%);
+		}
+	}
 
 	.sliderTrack {
 		display: flex;
-		justify-content: space-evenly;
+		gap: 1rem;
 		align-items: center;
-		align-content: center;
-		text-align: center;
-		animation: scroll 10s linear infinite;
-		width: calc(550px * 6);
+		padding-block: 1rem;
+		flex-wrap: wrap;
+		animation: 10s sliding infinite linear;
+		overflow: hidden;
+		white-space: nowrap;
+		// justify-content: space-evenly;
 	}
 
-	.slide {
-		width: 550px;
-	}
+	// .slide {
+	// 	width: 550px;
+	// }
 
 	.slide img {
-		max-width: 250px;
-		height: auto;
+		max-width: 220px;
+		height: 110px;
 	}
 }
