@@ -15,7 +15,6 @@ const Division = () => {
 				<hr />
 			</div>
 			{/* Divs with the services icons and descriptions  */}
-
 			<div class={styles.services}>
 				{data.divisionIcons.map((divisionItem) => (
 					<div
@@ -24,17 +23,14 @@ const Division = () => {
 						<div class={styles.servicesImage}>
 							<img
 								src={divisionItem.image}
-								alt=""
+								alt="appimage"
 							/>
 						</div>
 						<div class={styles.servicesHead}>
-							<h3>UX & UI</h3>
+							<h3>{divisionItem.head}</h3>
 						</div>
 						<div class={styles.servicesParagraph}>
-							<p>
-								Designing interfaces that are intuitive, efficient, and
-								enjoyable to use.
-							</p>
+							<p>{divisionItem.paragraph}</p>
 						</div>
 					</div>
 				))}

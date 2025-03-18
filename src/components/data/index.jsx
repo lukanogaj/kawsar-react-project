@@ -95,18 +95,30 @@ const data = {
 		{
 			id: 55,
 			image: uiux,
+			head: "UX & UI",
+			paragraph:
+				"Designing interface that are intuitive, efficient, and enjoyable to use.",
 		},
 		{
 			id: 56,
 			image: app,
+			head: "Web & Mobile App",
+			paragraph:
+				"Transforming ideas into exceptional web and mobile app experiences.",
 		},
 		{
 			id: 57,
 			image: design,
+			head: "Design & Creative",
+			paragraph:
+				"Crafting visually stunning designs that connect with your audience.",
 		},
 		{
 			id: 58,
 			image: development,
+			head: "Development",
+			paragraph:
+				"Bringing your vision to life with the latest technology and design trends.",
 		},
 	],
 };
