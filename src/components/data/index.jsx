@@ -5,7 +5,10 @@ import codeacademy from "../images/Icons/codeacademy.png";
 import mattered from "../images/Icons/mattered.png";
 import nationwide from "../images/Icons/nationwide.png";
 import subway from "../images/Icons/subway.png";
-
+import uiux from "../images/Icons/uiux.svg";
+import app from "../images/Icons/app.svg";
+import design from "../images/Icons/design.svg";
+import development from "../images/Icons/development.svg";
 const data = {
 	navbarStar: [
 		{
@@ -87,6 +90,24 @@ const data = {
 		{ id: 49, image: mattered },
 		{ id: 50, image: nationwide },
 		{ id: 51, image: subway },
+	],
+	divisionIcons: [
+		{
+			id: 55,
+			image: uiux,
+		},
+		{
+			id: 56,
+			image: app,
+		},
+		{
+			id: 57,
+			image: design,
+		},
+		{
+			id: 58,
+			image: development,
+		},
 	],
 };
 
