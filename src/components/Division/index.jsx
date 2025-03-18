@@ -1,35 +1,28 @@
 import styles from "./index.module.scss";
 import data from "../data";
+import DivisionHeading from "../DIvisionHeading";
 
 const Division = () => {
 	return (
 		<div className={styles.division}>
-			<div class={styles.servicesHead}>
-				<h2>
-					Collaborate with brands and agencies <br />
-					to create impactful results.
-				</h2>
-				<div class={styles.servicesBtn}>
-					<h4>Services</h4>
-				</div>
-				<hr />
-			</div>
+			<DivisionHeading />
+
 			{/* Divs with the services icons and descriptions  */}
-			<div class={styles.services}>
+			<div className={styles.services}>
 				{data.divisionIcons.map((divisionItem) => (
 					<div
-						class={styles.servicesWrapper}
+						className={styles.servicesWrapper}
 						key={divisionItem.id}>
-						<div class={styles.servicesImage}>
+						<div className={styles.servicesImage}>
 							<img
 								src={divisionItem.image}
 								alt="appimage"
 							/>
 						</div>
-						<div class={styles.servicesHead}>
+						<div className={styles.servicesHead}>
 							<h3>{divisionItem.head}</h3>
 						</div>
-						<div class={styles.servicesParagraph}>
+						<div className={styles.servicesParagraph}>
 							<p>{divisionItem.paragraph}</p>
 						</div>
 					</div>

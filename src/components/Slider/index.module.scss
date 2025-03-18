@@ -1,7 +1,8 @@
 .slider {
 	max-width: 100%;
-	background-color: #fff;
-	overflow: hidden;
+	height: auto;
+	background-color: #ffff;
+	// overflow: hidden;
 	border-radius: 0 0 123px 123px;
 
 	@keyframes sliding {

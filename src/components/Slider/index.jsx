@@ -4,7 +4,7 @@ import { useRef } from "react";
 // import { useEffect } from "react";
 // import Slider from "react-infinite-logo-slider";
 
-const SliderLogos = () => {
+const Slider = () => {
 	return (
 		<div className={styles.slider}>
 			<div className={styles.sliderTrack}>
@@ -24,4 +24,4 @@ const SliderLogos = () => {
 	);
 };
 
-export default SliderLogos;
+export default Slider;

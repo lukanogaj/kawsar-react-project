@@ -91,6 +91,14 @@ const data = {
 		{ id: 50, image: nationwide },
 		{ id: 51, image: subway },
 	],
+	divisionHead: [
+		{
+			id: 52,
+			mainHead:
+				"Collaborate with brands and agencies to create impactful results.",
+		},
+		{ id: 53, btnHead: "Services" },
+	],
 	divisionIcons: [
 		{
 			id: 55,
