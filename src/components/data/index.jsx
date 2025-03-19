@@ -9,6 +9,9 @@ import uiux from "../images/Icons/uiux.svg";
 import app from "../images/Icons/app.svg";
 import design from "../images/Icons/design.svg";
 import development from "../images/Icons/development.svg";
+import handshake from "../images/Icons/handsshake.svg";
+
+// Data for entire project
 const data = {
 	navbarStar: [
 		{
@@ -127,6 +130,16 @@ const data = {
 			head: "Development",
 			paragraph:
 				"Bringing your vision to life with the latest technology and design trends.",
+		},
+	],
+	sectionData: [
+		{
+			id: 59,
+			image: handshake,
+			heading: "Tell me about next project",
+			emailIcon: "📧",
+			email: "Email me",
+			whatsUp: "WhatsApp",
 		},
 	],
 };
