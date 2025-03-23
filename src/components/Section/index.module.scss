@@ -1,0 +1,100 @@
+.section {
+	width: 100%;
+	background-color: #f1efee;
+	/* border-radius: 10rem 10rem 10rem 10rem; */
+
+	.orderCard {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding-top: 5rem;
+		border-radius: 10rem 10rem 0 0;
+		background-color: #ffffff;
+		/* Order card handshake image */
+		.orderImage {
+			display: flex;
+			align-items: center;
+			margin: auto;
+			width: 10%;
+			background-color: #f1efee;
+			background: linear-gradient(#f1efee, #ffffff);
+			border: 3px solid lightgray;
+			border-radius: 50%;
+			justify-content: center;
+			& > img {
+				display: inline-block;
+				width: 160px;
+				height: 200px;
+				text-align: center;
+			}
+		}
+
+		/* Order card heading  */
+
+		.orderHeading {
+			display: block;
+			font-size: 3.5rem;
+			text-align: center;
+
+			& > h1 {
+				padding: 5rem 10rem 0 5rem;
+				margin: auto;
+				width: 60%;
+				letter-spacing: 0.09rem;
+			}
+		}
+		.orderContact {
+			display: flex;
+			justify-content: center;
+			justify-content: space-evenly;
+			align-items: center;
+			margin: auto;
+			font-family: Lato, sans-serif;
+			width: 30%;
+			background-color: #ffffff;
+			height: 300px;
+			border-radius: 10rem 10rem 10rem 10rem;
+			.orderEmail {
+				display: flex;
+				justify-content: center;
+				width: 35%;
+				height: 30%;
+				background-color: #000000;
+				border-radius: 3rem;
+				align-items: center;
+				color: #ffffff;
+				font-size: 1.2rem;
+				border: solid 4px lightgray;
+
+				.sectionImg {
+					padding-right: 1rem;
+				}
+
+				& > h4 {
+					width: 100%;
+					display: inline-block;
+					text-align: center;
+				}
+			}
+
+			.orderWhatsup {
+				display: flex;
+				align-items: center;
+				width: 35%;
+				height: 30%;
+				background-color: #f1efee;
+				border-radius: 3rem;
+				text-align: center;
+				font-size: 1.2rem;
+				border: solid 4px lightgray;
+
+				& > h4 {
+					width: 100%;
+					display: inline-block;
+					text-align: center;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

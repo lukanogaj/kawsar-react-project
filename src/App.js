@@ -4,7 +4,7 @@ import Navbar from "./components/Navabar";
 import Hero from "./components/Hero";
 import Slider from "./components/Slider";
 import Division from "./components/Division";
-// import DivisionHeading from "./components/DIvisionHeading";
+import Section from "./components/Section";
 function App() {
 	return (
 		<Layout>
@@ -12,7 +12,7 @@ function App() {
 			<Hero />
 			<Slider />
 			<Division />
-			{/* <DivisionHeading /> */}
+			<Section />
 		</Layout>
 	);
 }
