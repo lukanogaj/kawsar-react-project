@@ -1,0 +1,47 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 1rem;
+	border-radius: 0 0 10rem 10rem;
+	& > hr {
+		width: 90%;
+		margin: auto;
+	}
+	.footerSection {
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		/* background-color: blue; */
+		padding: 2rem 2rem 0 2rem;
+		.trademark {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			width: 12%;
+			.footerImg {
+				/* width: 100%; */
+				& > img {
+					width: 30px;
+					height: 30px;
+				}
+			}
+			& > h3 {
+				display: inline-block;
+				text-align: center;
+				white-space: nowrap;
+			}
+		}
+
+		.footerLinks {
+			display: flex;
+			align-items: center;
+			width: 15%;
+			gap: 30px;
+		}
+	}
+}

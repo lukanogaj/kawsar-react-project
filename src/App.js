@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Slider from "./components/Slider";
 import Division from "./components/Division";
 import Section from "./components/Section";
+import Footer from "./components/Footer";
 function App() {
 	return (
 		<Layout>
@@ -13,6 +14,7 @@ function App() {
 			<Slider />
 			<Division />
 			<Section />
+			<Footer />
 		</Layout>
 	);
 }

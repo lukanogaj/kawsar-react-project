@@ -1,6 +1,6 @@
 import styles from "./index.module.scss";
 import data from "../data";
-import DivisionHeading from "../DIvisionHeading";
+import DivisionHeading from "../DivisionHeading";
 
 const Division = () => {
 	return (
