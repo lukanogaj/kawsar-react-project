@@ -36,11 +36,21 @@ const Navbar = () => {
 				<div
 					className={styles.navEnd}
 					key={linkitem.id}>
-					<div className={styles.links}>{linkitem.linkedin}</div>
-					<div className={styles.links}>{linkitem.slash}</div>
-					<div className={styles.links}>{linkitem.dribble}</div>
-					<div className={styles.links}>{linkitem.slash}</div>
-					<div className={styles.links}>{linkitem.instagram}</div>
+					<div className={styles.links}>
+						<a href="">{linkitem.linkedin}</a>
+					</div>
+					<div className={styles.links}>
+						<a href="">{linkitem.slash}</a>
+					</div>
+					<div className={styles.links}>
+						<a href="">{linkitem.dribble}</a>
+					</div>
+					<div className={styles.links}>
+						<a href="">{linkitem.slash}</a>
+					</div>
+					<div className={styles.links}>
+						<a href="">{linkitem.instagram}</a>
+					</div>
 				</div>
 			))}
 		</div>
