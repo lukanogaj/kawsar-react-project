@@ -4,10 +4,11 @@
 	flex-direction: column;
 	align-content: center;
 	align-items: center;
+	font-family: Lato, sans-serif;
 	width: 100%;
 	background-color: #ffffff;
 	padding: 1rem;
-	border-radius: 0 0 10rem 10rem;
+
 	& > hr {
 		width: 90%;
 		margin: auto;
@@ -16,13 +17,14 @@
 		display: flex;
 		justify-content: space-between;
 		width: 90%;
-		/* background-color: blue; */
+		// /* background-color: blue; */
 		padding: 2rem 2rem 0 2rem;
 		.trademark {
 			display: flex;
 			justify-content: space-around;
 			align-items: center;
 			width: 12%;
+			font-weight: 200;
 			.footerImg {
 				/* width: 100%; */
 				& > img {
