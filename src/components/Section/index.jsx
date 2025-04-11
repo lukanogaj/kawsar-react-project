@@ -20,10 +20,10 @@ const Section = () => {
 					<div className={styles.orderContact}>
 						<div className={styles.orderEmail}>
 							<div className={styles.sectionImg}>📧</div>
-							<div>Email me</div>
+							<a href="">Email me</a>
 						</div>
 						<div className={styles.orderWhatsup}>
-							<h4>WhatsApp</h4>
+							<a href="">WhatsApp</a>
 						</div>
 					</div>
 				</div>

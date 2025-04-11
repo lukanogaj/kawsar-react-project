@@ -95,8 +95,11 @@
 			color: #ffff;
 			background-color: #000000;
 			font-weight: 400;
+			cursor: pointer;
 		}
-
+		h3:hover {
+			text-decoration: underline;
+		}
 		.arrowLine {
 			display: flex;
 			flex-direction: column;
@@ -108,7 +111,6 @@
 			}
 
 			.line {
-				// height: 10%;
 				background-color: #000000;
 			}
 		}

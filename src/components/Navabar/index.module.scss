@@ -1,11 +1,11 @@
 .navbar {
 	display: flex;
-	// gap: 15px;
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
 	background-color: #f1efee;
 	font-family: Lato, serif;
+	cursor: pointer;
 
 	.navStart {
 		display: flex;
@@ -31,9 +31,9 @@
 			justify-content: space-around;
 			text-align: center;
 			align-items: center;
-			// background-color: yellow;
 			background-color: #f1efee;
 			border-radius: 2.2rem;
+			cursor: pointer;
 			.email {
 				padding: 1rem;
 				text-align: center;

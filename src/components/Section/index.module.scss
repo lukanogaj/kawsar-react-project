@@ -65,6 +65,13 @@
 				color: #ffffff;
 				font-size: 1.2rem;
 				border: solid 4px lightgray;
+				& > a {
+					color: #ffffff;
+					text-decoration: none;
+				}
+				a:hover {
+					text-decoration: underline;
+				}
 
 				.sectionImg {
 					padding-right: 1rem;
@@ -80,6 +87,7 @@
 			.orderWhatsup {
 				display: flex;
 				align-items: center;
+				justify-content: center;
 				width: 35%;
 				height: 30%;
 				background-color: #f1efee;
@@ -88,11 +96,12 @@
 				font-size: 1.2rem;
 				border: solid 4px lightgray;
 
-				& > h4 {
-					width: 100%;
-					display: inline-block;
-					text-align: center;
-					text-align: center;
+				& > a {
+					color: #000000;
+					text-decoration: none;
+				}
+				a:hover {
+					text-decoration: underline;
 				}
 			}
 		}

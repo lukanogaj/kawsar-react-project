@@ -26,7 +26,6 @@
 			width: 12%;
 			font-weight: 200;
 			.footerImg {
-				/* width: 100%; */
 				& > img {
 					width: 30px;
 					height: 30px;
@@ -44,6 +43,18 @@
 			align-items: center;
 			width: 15%;
 			gap: 30px;
+			color: #000000;
+		}
+		.links {
+			color: #000000;
+		}
+		.links a {
+			color: #000000;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		a:hover {
+			text-decoration: underline;
 		}
 	}
 }

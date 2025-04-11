@@ -15,11 +15,17 @@ const Footer = () => {
 					<h3>2024 All rights reserved</h3>
 				</div>
 				<div className={styles.footerLinks}>
-					<div className={styles.links}>Linkedin</div>
+					<div className={styles.links}>
+						<a href="">Linkedin</a>
+					</div>
 					<div className={styles.links}>/</div>
-					<div className={styles.links}>Dribble</div>
+					<div className={styles.links}>
+						<a href="">Dribble</a>
+					</div>
 					<div className={styles.links}>/</div>
-					<div className={styles.links}>Instagram</div>
+					<div className={styles.links}>
+						<a href="">Instagram</a>
+					</div>
 				</div>
 			</div>
 		</div>
